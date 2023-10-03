@@ -1,0 +1,730 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   box-sizing: border-box;
+}
+.main{
+    width: 100%;
+   
+}
+.navdiv{
+    width: 100%;
+ border: 2px solid yellow;
+  background-color: rgb(255, 255, 255);
+ padding: 10px 40px 10px 10px;
+
+
+   
+
+    
+}
+.navdiv ul{
+   display: flex;
+   text-decoration: none;
+   align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+ 
+ 
+}
+@media (max-width: 767.98px) { 
+    .navdiv .logo img{
+        width: 100%;
+    }
+    .navdiv{
+        width: 100%;
+    } 
+    .navdiv .search input{
+        width: 50%;
+    }
+
+ }
+
+.navdiv ul li{
+padding: 0 25px;
+display: inline-flex;
+
+
+}
+
+
+.navdiv ul .items img{
+    width: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+  
+}
+.navdiv ul button{
+  border: 2px solid yellow;
+    width: 50px;
+}
+.navdiv ul .search img{
+    width: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.navdiv ul button a{
+    text-decoration: none;
+    color: rgb(163, 163, 46);
+}
+.seccont{
+    width: 100%;
+    background-color: rgba(255, 204, 0, 0.934);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.secleft{
+    
+    width: 60%;
+   
+   
+}
+
+
+
+
+
+
+.secright img{
+    width: 100%;
+    margin-top: 50px;
+    margin-right: 40%;
+  
+   
+   
+}
+
+
+@media (max-width: 412px) { 
+    .secright img{
+        width: 50%;
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+ }
+
+
+
+
+
+
+.secleft h1{
+    margin-bottom: 10px;
+    margin-left: 50px;
+    color: white;
+}
+@media (max-width: 421px) { 
+    .secleft h1{
+        width: 70%;
+    }
+ 
+ }
+.secleft p{
+    margin-left: 50px;
+    font-size: smaller;
+    color: rgb(100, 100, 100);
+
+}
+.secleftchild{
+    background-color: white;
+    border-radius: 10px;
+    width: 450px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+@media (max-width: 767.98px) { 
+    .secleftchild {
+        width: 75%;
+    }
+ }
+
+.secleft button{
+    margin-left: 10px;
+    margin-top: 10px;
+   
+   
+
+}
+
+.secleft button img{
+    width: 10px;
+}
+.pickup{
+    background: white;
+    border-color: white;
+    color: gray;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 22px;
+    padding-left: 3px;
+    
+   
+}
+.delivery{
+    background-color: rgba(244, 176, 176, 0.255);
+    color: chocolate;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 22px;
+    padding-left: 5px;
+   
+}
+.secleftchild input{
+    display: block;
+    margin-top: 20px;
+    width: 250px;
+    height: 25px;
+    margin-left: 10px;
+    background-color: rgb(241, 240, 240);
+    border:  rgb(241, 240, 240);
+    border-radius: 5px;
+   
+
+    
+}
+
+@media (max-width: 767.98px) { 
+    .secleftchild input{
+        width: 100%;
+        margin-top: 4px;
+    }
+ }
+.findfood{
+    display: flex;
+    flex-wrap: wrap;
+  width: 100%;
+    
+    
+   
+    
+}
+
+
+
+.findfood button{
+    width: 100px;
+    height: 25px;
+    position: relative;
+    top: 10px;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    background-color:  chocolate;
+    flex-wrap: wrap;
+
+}
+@media (max-width: 767.98px) { 
+    .findfood button{
+        width: 50%;
+        margin-top: 4px;
+    }
+ }
+
+
+
+.findfood button img{
+   
+    height:  10px;
+ 
+   
+   
+}
+.thirdcont{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+   
+    
+
+}
+
+
+.thirdcont .card{
+  
+    width: 23%;
+    margin-top: 10px;
+    
+   
+   
+}
+@media (max-width: 823px) { 
+    .thirdcont .card{
+        width: 48% ;
+       
+    }
+ }
+.thirdcont .card img{
+    width: 100%;
+    border-radius: 20px;
+}
+.cardbottom h6{
+   
+    font-size: small;
+    padding-left: 5px;
+}
+.cardbottom p{
+    margin-top: 5px;
+    color:  chocolate;
+    background-color:rgb(243, 225, 211); 
+    width: 120px;
+    align-items: center;
+    padding-left: 5px;
+    border-radius: 5px;
+
+}
+.card h1{
+    position: relative;
+   bottom: 40px;
+   padding-left: 10px;
+   
+   color: white;
+   background-color: chocolate;
+   width: 125px;
+   border-top-right-radius: 20px;
+
+
+}
+.cardbottom{
+   padding-bottom: 10px;
+}
+.fourcont{
+    width: 100%;
+   
+    background-color: rgba(255, 204, 0, 0.087);
+    margin-top: 20px;
+    color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    
+    
+    
+}
+.iconcard{
+    width: 100%;
+    background-color: rgba(255, 204, 0, 0.087);
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.fouricon{
+    width: 23%;
+    height: 330px;
+
+}
+
+
+.headpara h6{
+    text-align: center;
+}
+.headpara p{
+    text-align: center;
+    margin-top: 2px;
+
+}
+
+
+
+
+ .iconcard .fouricon{
+    width: 22%;
+  
+    align-items: center;
+    
+   
+  
+
+ 
+
+   
+ }
+ .iconcard .fouricon img{
+    width: 250px;
+  
+   
+
+ }
+
+#dollericon{
+   height: 290px;
+
+ }
+ #roundIcons{
+    height: 290px;
+
+ }
+
+ .headpara{
+   
+    width: 100%;
+ 
+    position: relative;
+    bottom:10%
+   
+  
+
+    
+ }
+ @media (min-width: 1230px) { 
+    .fouricon .headpara{
+       width: 50%;
+       margin-right: 70px;
+    
+       
+    }
+ }
+ @media (max-width: 822px) { 
+    .fouricon .headpara{
+       width: 65%;
+ 
+    
+       
+    }
+ }
+ @media (min-width: 400px) and (max-width: 800px) { 
+    .fouricon .headpara{
+       width: 65%;
+       margin-left: 20px;
+ 
+    
+       
+    }
+ }
+ @media (min-width: 830px) and (max-width: 1600px) { 
+    .fouricon .headpara{
+       width: 65%;
+       margin-left: 30px;
+   
+     
+ 
+    
+       
+    }
+ }
+
+
+
+ .iconcard .headpara h6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: larger;
+    
+
+ }
+ .iconcard .headpara p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-small;
+    color: gray;
+    font-weight: 700;
+    font-size: small;
+  
+ }
+ @media (max-width: 823px) { 
+    .iconcard .fouricon{
+        width: 48% ;
+       
+    }
+ }
+ @media (max-width: 500px) { 
+    .iconcard .fouricon {
+        width: 95% ;
+       
+    }
+ }
+ @media (max-width: 500px) { 
+    .iconcard .fouricon img{
+        width: 50% ;
+      margin-left: 80px;
+       
+    }
+ }
+ .five{
+    width: 100%;
+
+   margin-top: 5%;
+   margin-bottom: 5%;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+
+
+ }
+ .six{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+ }
+ .sixcard{
+    width: 18%;
+   
+ }
+ @media (max-width: 1578px) { 
+    .sixcard{
+        width: 30% ;
+     
+       
+    }
+ }
+ @media (max-width: 958px) { 
+    .sixcard{
+        width: 48% ;
+     
+       
+    }
+ }
+ @media (max-width: 596px) { 
+    .sixcard{
+        width: 98% ;
+        margin-left: 25%;
+      
+     
+       
+    }
+ }
+ .sixcard .sixcardchild h6{
+   font-size: medium;
+   margin-top: 2px;
+   margin-bottom: 2px;
+ }
+ .sixcard img {
+  border-radius: 10px;
+  margin-top: 2%;
+ }
+ .location{
+    display: flex;
+    align-items: baseline;
+ 
+   
+}
+.location p{
+    margin-left: 5px;
+    color: rgb(255, 196, 0);
+}
+.sixcard button{
+    width: 90%;
+    margin-top: 5px;
+    height: 30px;
+    color: white;
+    background-color: chocolate;
+}
+@media (max-width: 596px) { 
+    .sixcard button{
+        width: 50% ;
+       
+     
+       
+    }
+ }
+ .seven{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .Featured{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+ }
+ .Featuredcard{
+    width: 23%;
+    position: relative;
+  
+   
+ }
+ .Featuredcard img{
+    border-radius: 10px;
+ }
+ .tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:10%;
+    padding-left: 5%;
+    
+ }
+.tag #off{
+    background-color: chocolate;
+    width: 80px;
+
+}
+.tag #off img{
+    width: 10px;
+    margin-left: 12px;
+    border-radius: 5px;
+    padding-top: 5px;
+
+   
+}
+.tag h6{
+    color: white;
+    padding-bottom: 10px;
+    font-size: small;
+   padding-top: 5px;
+   width: 20px;
+   border-radius: 10px;
+   color: white;
+ 
+   
+  
+}
+.tag h6{
+    background-color: rgb(255, 196, 0);
+    width: 60px;
+    margin-left: 12px;
+
+}
+.tag h6 img{
+    width: 10px;
+    margin-left: 12px;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.Featuredcardbottom{
+    display: flex;
+    
+
+}
+.rate{
+    margin-left: 10px;
+  
+}
+.rate p{
+    margin-top: 5px;
+    font-weight: 600;
+
+  
+
+   
+}
+.rate img{
+    width: 20px;
+    padding-top: 5px;
+}
+.Featuredcardbottom .rate h6{
+    margin-left: 5px;
+   
+    
+    
+}
+.Featuredcard button{
+    margin-top: 10px;
+    width: 50%;
+    height: 30px;
+    background-color: rgb(255, 196, 0);
+    color:  chocolate;
+    border: none;
+    border-radius: 10px;
+
+   
+}
+#Featuredbtngreen{
+    margin-top: 10px;
+    width: 30%;
+    height: 30px;
+    background-color: rgb(200, 232, 152);
+    color:  rgb(23, 147, 37);
+    border: none;
+    border-radius: 10px;
+}
+.Featuredbottom{
+    width: 23%;
+    position: relative;
+  
+
+   
+}
+
+
+.Featuredbottom button{
+    background-color: rgb(200, 232, 152);
+    color:  rgb(23, 147, 37);
+    border: none;
+    width: 100px;
+   
+}
+@media (max-width: 596px) { 
+    .Featured .Featuredcard{
+        width: 90% ;
+        margin-left: 18%;
+        margin-bottom: 2%;
+     
+       
+    }
+ }
+ @media (max-width: 596px) { 
+   .Featuredbottom {
+    width: 90% ;
+    margin-top: 5px;
+    padding-bottom: 10px;
+   margin-left: 18%;
+
+
+ }
+}
+@media (max-width: 958px) { 
+    .Featuredcard{
+        width: 48% ;
+     
+       
+    }
+ }
+ 
+@media (max-width: 958px) { 
+    .Featuredbottom{
+        width: 48% ;
+        margin-left: 0%;
+       
+     
+       
+    }
+ }
+ @media (max-width: 596px) { 
+    .Featuredcardbottom {
+     width: 95% ;
+     margin-top: 5px;
+     padding-bottom: 10px;
+    margin-left: 18%;
+ 
+ 
+  }
+ }
